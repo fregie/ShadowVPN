@@ -38,6 +38,7 @@ Make sure to set `--sysconfdir=/etc`. You'll find conf files under `/etc`.
     sudo apt-get install build-essential automake libtool git -y
     ./configure --enable-static --sysconfdir=/etc
     make && sudo make install
+    ```
     # compile from source
     sudo apt-get install build-essential automake libtool
     git clone https://github.com/clowwindy/ShadowVPN.git
@@ -45,6 +46,7 @@ Make sure to set `--sysconfdir=/etc`. You'll find conf files under `/etc`.
     ./autogen.sh
     ./configure --enable-static --sysconfdir=/etc
     make && sudo make install
+    ```
 
 #### OpenWRT
 
